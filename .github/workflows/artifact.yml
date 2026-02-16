@@ -33,4 +33,4 @@ jobs:
 
 
       - name: To see content
-        run: cat ./artifacts/hello.txt
+        run: cat hello.txt
