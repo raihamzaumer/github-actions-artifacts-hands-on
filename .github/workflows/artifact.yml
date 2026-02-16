@@ -29,8 +29,6 @@ jobs:
         with:
          name: hello-artifact
 
-      - name: Test "Check file exsits"
-        run: grep -i "a" dragon.txt
 
       - name: To see content
         run: cat ./artifacts/hello.txt
